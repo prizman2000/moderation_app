@@ -97,4 +97,36 @@
       }
     }
   }
+
+  .form {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    gap: 30px;
+
+    .comment {
+      padding: 20px;
+      font-size: 18px;
+      width: 100%;
+      border: 1px solid var(--grey-border-color);
+      resize: none;
+      border-radius: 5px;
+      height: 200px;
+    }
+
+    .submit {
+      width: 240px;
+      height: 45px;
+      border-radius: 5px;
+      background-color: var(--blue-button-color);
+      color: white;
+      font-size: 14px;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
 }
