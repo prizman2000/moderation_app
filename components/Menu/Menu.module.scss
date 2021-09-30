@@ -1,0 +1,46 @@
+
+.ctn {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  .item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+    .action {
+      font-size: 14px;
+      line-height: 16px;
+      color: var(--black-color);
+    }
+
+    .light {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+
+      &.green {
+        background-color: var(--green-button-color);
+      }
+
+      &.orange {
+        background-color: var(--orange-button-color);
+      }
+
+      &.blue {
+        background-color: var(--blue-button-color);
+      }
+
+      &.none {
+        background-color: transparent;
+      }
+    }
+
+    .button {
+      font-size: 14px;
+      line-height: 16px;
+      color: var(--light-text-color);
+    }
+  }
+}

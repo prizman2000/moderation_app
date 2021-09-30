@@ -1,0 +1,20 @@
+
+.ctn {
+  width: 100%;
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+
+  .container {
+    display: flex;
+    gap: 42px;
+
+    .post_block {
+
+    }
+
+    .menu_block {
+      margin-top: 10px;
+    }
+  }
+}

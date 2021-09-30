@@ -1,0 +1,18 @@
+@import "reset.scss";
+
+:root {
+  --black-color: #000000;
+  --main-text-color: #4a4a4a;
+  --light-text-color: #777777;
+  --blue-color: #1764cc;
+  --grey-border-color: #e4e4e4;
+  --green-button-color: #88bd35;
+  --orange-button-color: #f7882e;
+  --blue-button-color: #1764cc;
+}
+
+body {
+  font-family: Arial;
+  font-weight: normal;
+  font-style: normal;
+}
